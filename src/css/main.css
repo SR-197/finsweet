@@ -1086,6 +1086,10 @@ video {
     width: 100%;
   }
 
+  .mobile\:w-\[\] {
+    width: ;
+  }
+
   .mobile\:max-w-\[100\%\] {
     max-width: 100%;
   }
@@ -1598,6 +1602,10 @@ video {
   .mobile\:text-white {
     --tw-text-opacity: 1;
     color: rgb(255 255 255 / var(--tw-text-opacity, 1));
+  }
+
+  .mobile\:text-\[\] {
+    color: ;
   }
 
   .mobile\:caret-white {
