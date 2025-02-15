@@ -1424,6 +1424,14 @@ video {
     row-gap: 2.5rem;
   }
 
+  .mobile\:overflow-x-hidden {
+    overflow-x: hidden;
+  }
+
+  .mobile\:overflow-y-hidden {
+    overflow-y: hidden;
+  }
+
   .mobile\:rounded-\[12px\] {
     border-radius: 12px;
   }
