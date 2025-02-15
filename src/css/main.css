@@ -909,6 +909,10 @@ video {
     min-height: 64px;
   }
 
+  .mobile\:w-\[100\%\] {
+    width: 100%;
+  }
+
   .mobile\:w-\[120px\] {
     width: 120px;
   }
@@ -979,10 +983,6 @@ video {
 
   .mobile\:w-\[40\%\] {
     width: 40%;
-  }
-
-  .mobile\:w-\[464px\] {
-    width: 464px;
   }
 
   .mobile\:w-\[48px\] {
