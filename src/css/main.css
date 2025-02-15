@@ -3406,6 +3406,11 @@ video {
       color: rgb(255 255 255 / var(--tw-text-opacity, 1));
     }
 
+    .mobile\:dark\:text-\[\#FFFFFF\] {
+      --tw-text-opacity: 1;
+      color: rgb(255 255 255 / var(--tw-text-opacity, 1));
+    }
+
     .mobile\:dark\:opacity-\[100\%\] {
       opacity: 100%;
     }
