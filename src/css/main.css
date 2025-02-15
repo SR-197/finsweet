@@ -576,6 +576,10 @@ video {
   row-gap: 100px;
 }
 
+.overflow-x-hidden {
+  overflow-x: hidden;
+}
+
 .pt-\[12px\] {
   padding-top: 12px;
 }
@@ -1098,10 +1102,6 @@ video {
     max-width: 249px;
   }
 
-  .mobile\:max-w-\[250px\] {
-    max-width: 250px;
-  }
-
   .mobile\:max-w-\[405px\] {
     max-width: 405px;
   }
@@ -1190,10 +1190,6 @@ video {
 
   .mobile\:gap-y-\[48px\] {
     row-gap: 48px;
-  }
-
-  .mobile\:overflow-x-hidden {
-    overflow-x: hidden;
   }
 
   .mobile\:rounded-\[12px\] {
@@ -2409,6 +2405,10 @@ video {
 
   .desktop\:w-\[779px\] {
     width: 779px;
+  }
+
+  .desktop\:w-\[80\%\] {
+    width: 80%;
   }
 
   .desktop\:w-\[816px\] {
