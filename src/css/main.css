@@ -1025,6 +1025,10 @@ video {
     width: 72px;
   }
 
+  .mobile\:w-\[75\%\] {
+    width: 75%;
+  }
+
   .mobile\:w-\[80\%\] {
     width: 80%;
   }
