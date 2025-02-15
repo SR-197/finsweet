@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face{
+    font-family: poppins;
+    src: url(../fonts/Poppins-Regular.eot);
+    src: url(../fonts/Poppins-Regular.ttf);
+    src: url(../fonts/Poppins-Regular.woff);
+    src: url(../fonts/Poppins-Regular.woff2);
+}
+@font-face {
+    font-family: manrope;
+    src: url(../fonts/manrope/Manrope-Regular.eot);
+    src: url(../fonts/manrope/Manrope-Regular.woff);
+    src: url(../fonts/manrope/Manrope-Regular.woff2);
+    src: url(../fonts/manrope/Manrope-Regular.ttf);
+}

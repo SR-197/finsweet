@@ -1,0 +1,18 @@
+{
+  "name": "figma-project",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "tailwind": "npx tailwindcss -i ./src/tailwind/tailwind.css -o ./src/css/main.css --watch "
+  },
+  "devDependencies": {
+    "vite": "^6.0.5"
+  },
+  "dependencies": {
+    "tailwindcss": "3.4"
+  }
+}
