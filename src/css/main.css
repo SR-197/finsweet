@@ -913,6 +913,10 @@ video {
     width: 100%;
   }
 
+  .mobile\:w-\[100px\] {
+    width: 100px;
+  }
+
   .mobile\:w-\[120px\] {
     width: 120px;
   }
@@ -1150,20 +1154,12 @@ video {
     align-items: center;
   }
 
-  .mobile\:justify-end {
-    justify-content: flex-end;
-  }
-
   .mobile\:justify-center {
     justify-content: center;
   }
 
   .mobile\:justify-between {
     justify-content: space-between;
-  }
-
-  .mobile\:justify-evenly {
-    justify-content: space-evenly;
   }
 
   .mobile\:gap-x-6 {
