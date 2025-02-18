@@ -580,6 +580,11 @@ video {
   overflow-x: hidden;
 }
 
+.bg-amber-600 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(217 119 6 / var(--tw-bg-opacity, 1));
+}
+
 .pt-\[12px\] {
   padding-top: 12px;
 }
@@ -666,6 +671,10 @@ video {
   .mobile\:my-\[20px\] {
     margin-top: 20px;
     margin-bottom: 20px;
+  }
+
+  .mobile\:mb-\[10px\] {
+    margin-bottom: 10px;
   }
 
   .mobile\:mb-\[128px\] {
@@ -804,16 +813,24 @@ video {
     margin-top: 6px;
   }
 
-  .mobile\:mt-\[7px\] {
-    margin-top: 7px;
-  }
-
   .mobile\:mt-\[8px\] {
     margin-top: 8px;
   }
 
   .mobile\:mt-\[9px\] {
     margin-top: 9px;
+  }
+
+  .mobile\:mb-\[7px\] {
+    margin-bottom: 7px;
+  }
+
+  .mobile\:mb-\[5px\] {
+    margin-bottom: 5px;
+  }
+
+  .mobile\:mb-\[3px\] {
+    margin-bottom: 3px;
   }
 
   .mobile\:block {
@@ -1086,8 +1103,16 @@ video {
     width: 100%;
   }
 
-  .mobile\:w-\[\] {
-    width: ;
+  .mobile\:w-\[34px\] {
+    width: 34px;
+  }
+
+  .mobile\:w-\[44px\] {
+    width: 44px;
+  }
+
+  .mobile\:w-\[104px\] {
+    width: 104px;
   }
 
   .mobile\:max-w-\[100\%\] {
@@ -1604,10 +1629,6 @@ video {
     color: rgb(255 255 255 / var(--tw-text-opacity, 1));
   }
 
-  .mobile\:text-\[\] {
-    color: ;
-  }
-
   .mobile\:caret-white {
     caret-color: #fff;
   }
@@ -1774,6 +1795,10 @@ video {
     margin-bottom: 128px;
   }
 
+  .desktop\:mb-\[3px\] {
+    margin-bottom: 3px;
+  }
+
   .desktop\:mb-\[47px\] {
     margin-bottom: 47px;
   }
@@ -1926,10 +1951,6 @@ video {
     margin-top: 6px;
   }
 
-  .desktop\:mt-\[7px\] {
-    margin-top: 7px;
-  }
-
   .desktop\:mt-\[8px\] {
     margin-top: 8px;
   }
@@ -1940,6 +1961,30 @@ video {
 
   .desktop\:mt-\[9px\] {
     margin-top: 9px;
+  }
+
+  .desktop\:mb-\[2px\] {
+    margin-bottom: 2px;
+  }
+
+  .desktop\:mb-\[1px\] {
+    margin-bottom: 1px;
+  }
+
+  .desktop\:mt-\[\] {
+    margin-top: ;
+  }
+
+  .desktop\:mt-\[3px\] {
+    margin-top: 3px;
+  }
+
+  .desktop\:mt-\[2px\] {
+    margin-top: 2px;
+  }
+
+  .desktop\:mt-\[1px\] {
+    margin-top: 1px;
   }
 
   .desktop\:block {
@@ -3381,6 +3426,11 @@ video {
       font-size: 95%;
     }
 
+    .mobile\:dark\:text-\[\#FFFFFF\] {
+      --tw-text-opacity: 1;
+      color: rgb(255 255 255 / var(--tw-text-opacity, 1));
+    }
+
     .mobile\:dark\:text-\[\#e4e0e0\] {
       --tw-text-opacity: 1;
       color: rgb(228 224 224 / var(--tw-text-opacity, 1));
@@ -3402,11 +3452,6 @@ video {
     }
 
     .mobile\:dark\:text-white {
-      --tw-text-opacity: 1;
-      color: rgb(255 255 255 / var(--tw-text-opacity, 1));
-    }
-
-    .mobile\:dark\:text-\[\#FFFFFF\] {
       --tw-text-opacity: 1;
       color: rgb(255 255 255 / var(--tw-text-opacity, 1));
     }
